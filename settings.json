@@ -1,0 +1,95 @@
+{
+    "workbench.colorTheme": "Hack The Box",
+    "workbench.iconTheme": "icons",
+    "workbench.sideBar.location": "right",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "sideBar.background": "#000000",
+        "terminal.background": "#000000",
+        "tab.hoverBackground": "#19693d",
+        "panel.background": "#000000",
+        "statusBar.background": "#000000",
+        "breadcrumb.background": "#000000",
+        "editorLineNumber.activeForeground": "#00ff62",
+        "editor.selectionBackground": "#125f3b",
+        "editor.selectionHighlightBackground": "#17493d",
+        "editor.lineHighlightBackground": "#000000",
+        "editorLineNumber.foreground": "#8b8686",
+        "activityBar.activeBackground": "#224420",
+        "activityBar.foreground": "#00ff62",
+        "activityBar.background": "#000000",
+        "editorSuggestWidget.background": "#141010",
+        "editorSuggestWidget.border":"#00ff62",
+        "editorSuggestWidget.foreground": "#54ad2a",
+        "editorSuggestWidget.highlightForeground": "#b41414",
+        "editorSuggestWidget.selectedBackground": "#073b0f",
+        "panel.border": "#00ff62",
+        "panelTitle.activeBorder": "#ff0000",
+        "editorGroupHeader.tabsBackground": "#000000",
+        "editorGroupHeader.tabsBorder": "#00ff62",
+    } ,
+    
+    "editor.fontSize": 13,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.external.linuxExec": "kitty",
+    "terminal.explorerKind": "external",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "glassit.alpha": 240,
+    "editor.tokenColorCustomizations": {
+        "[Hack The Box]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "meta.block.tsx",
+                        "meta.arrow.tsx",
+                        "meta.var.expr.tsx",
+                        "source.tsx"
+                    ],
+                    "settings": {
+                        "foreground": "#a99fe6",
+                        //"fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.object-literal.key.ts",
+                        "meta.object.member.ts",
+                        "meta.objectliteral.ts",
+                        "meta.object.member.ts",
+                        "meta.objectliteral.ts",
+                        "meta.var.expr.ts",
+                        "source.ts"
+                    ],
+                    "settings": {
+                        "foreground": "#a1d9f0",
+                        //"fontStyle": "bold"
+                    }
+                }
+            ]
+        }
+    },
+    "editor.renderWhitespace": "all",
+    "zenMode.hideLineNumbers": false,
+    "terminal.integrated.fontWeight": "normal",
+    "window.menuBarVisibility": "visible",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.config/nvim/init.vim"
+    
+}
